@@ -15,7 +15,7 @@ jobs:
         
       # Uses the Composite Actions
       - name: Build and Push the image
-        uses: iamdevopser/CompositeActions@main
+        uses: iamdevopser/CompositeActions@master
         with: 
           registery_username: ${{secrets.REGISTERY_USERNAME}}
           registery_password: ${{secrets.REGISTERY_PASSWORD}}
