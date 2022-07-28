@@ -10,7 +10,7 @@ jobs:
     steps:
       - users: actions/checkout@v2
       
-      - name: Do anything else
+      - name: Do anything elsee
         run: echo Pretend to do other things
         
       # Uses the Composite Actions
